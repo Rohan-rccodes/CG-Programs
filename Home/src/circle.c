@@ -3,7 +3,6 @@
 
 int main()
 {
-
     int gd = DETECT, gm;
     char data[] = "C:\\MinGW\\lib\\libbgi.a";
 
