@@ -9,7 +9,7 @@ int main()
     initgraph(&gd, &gm, data);
 
     outtextxy(50, 50, "Draw a CIRCULAR Arc : ");
-    arc(100, 100, 0, 110, 50);
+    arc(200, 200, 0, 110, 50);
 
     getch();
 
