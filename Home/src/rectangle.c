@@ -6,7 +6,7 @@ int main()
 
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:\TurboC++\Disk\TurboC3\BIN");
+    initgraph(&gd, &gm, "C:\\MinGW\\lib\\libbgi.a");
 
     // outtext("\t\t\n\nLine : ");
     outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
