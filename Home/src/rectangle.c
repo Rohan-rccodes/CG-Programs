@@ -9,11 +9,11 @@ int main()
     initgraph(&gd, &gm, "C:\\MinGW\\lib\\libbgi.a");
 
     // outtext("\t\t\n\nLine : ");
-    outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
-    line(50, 50, 300, 50);
+    outtextxy(50, 50, "Rectangle : ");
+    line(150, 150, 300, 50);
 
-    outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
-    rectangle(50, 50, 100, 100);
+    outtextxy(50, 50, "Rectangle : ");
+    rectangle(350, 350, 100, 100);
 
     getch();
     closegraph();
