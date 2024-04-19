@@ -14,10 +14,10 @@ int main()
     x = 25;
     y = 50;
 
-    for (font; font <= 10; font++)
+    for (font = 0; font <= 10; font++)
     {
         delay(100);
-        settextstyle(font, 0, 5);
+        settextstyle(font, 0, 3);
         outtextxy(x, y, "RCCOCES");
         y = y + 40;
     }
