@@ -1,12 +1,12 @@
-#include<graphics.h>  
-#include<conio.h>  
-int main()  
-{  
-    int gd=DETECT,gm;  
+#include <graphics.h>
+#include <conio.h>
+int main()
+{
+    int gd = DETECT, gm;
 
-    char data[] = "C:\\MinGW\\lib\\libbgi.a"; //static file
+    char data[] = "C:\\MinGW\\lib\\libbgi.a"; // static file
 
-    initgraph(&gd,&gm, data);
+    initgraph(&gd, &gm, data);
 
     setbkcolor(GREEN);
 
@@ -23,16 +23,12 @@ int main()
     circle(120, 270, 30);
 
     printf("\t\n\n\n\n ECLIPSE");
-    
-    // outtexttxy( 50, 50,"\t\n\n\n\n ECLIPSE");
-    outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
-    ellipse(120,350,0,360,30,20);  
 
+    outtexttxy(50, 50, "\t\n\n\n\n ECLIPSE");
+    ellipse(120, 350, 0, 360, 30, 20);
 
-    getch();  
+    getch();
     closegraph();
 
-return 0;
-
-
-}  
+    return 0;
+}

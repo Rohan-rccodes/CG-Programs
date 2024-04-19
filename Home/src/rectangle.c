@@ -8,14 +8,16 @@ int main()
 
     initgraph(&gd, &gm, "C:\TurboC++\Disk\TurboC3\BIN");
 
-        outtext("Line : ");
+    // outtext("\t\t\n\nLine : ");
+    outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
 
-        line(50, 50, 300, 50);
 
-        outtext("Rectangle : ");
-        rectangle(50, 50, 100, 100);
+    line(50, 50, 300, 50);
 
-            getch();
+    outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
+    rectangle(50, 50, 100, 100);
+
+    getch();
     closegraph();
 
     return (0);
