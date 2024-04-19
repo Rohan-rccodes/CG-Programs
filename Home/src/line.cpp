@@ -7,7 +7,7 @@ int main()
 
     initgraph(&gd, &gm, "C:\TurboC++\Disk\TurboC3\BIN");
 
-    line(50, 50, 100, 50);
+    line(50, 50, 200, 50);
 
     getch();
     closegraph();
