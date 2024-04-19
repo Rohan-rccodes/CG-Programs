@@ -8,7 +8,7 @@ int main()
 
     initgraph(&gd, &gm, data);
 
-    ellipse(50, 50, 0, 360, 20, 40);
+    ellipse(150, 150, 0, 360, 60, 40);
 
     getch();
 
