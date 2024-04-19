@@ -8,11 +8,12 @@ int main()
 
     initgraph(&gd, &gm, data);
 
-    outstreamxy(50, 50, "Draw a CIRCULAR Arc : ");
+    outtextxy(50, 50, "Draw a CIRCULAR Arc : ");
     arc(100, 100, 0, 110, 50);
 
     getch();
+
     closegraph();
 
-    return 0;
+    return (0);
 }
