@@ -10,8 +10,6 @@ int main()
 
     // outtext("\t\t\n\nLine : ");
     outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
-
-
     line(50, 50, 300, 50);
 
     outtexttxy( 50, 50, "\t\t\n\nRectangle : ");
